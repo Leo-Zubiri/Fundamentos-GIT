@@ -21,6 +21,14 @@ En este caso se ignora el archivo **historia.log**
 logs/historia.log
 ```
 
+Se eliminaron todos los archivos excepto el README y después se recuperaron con:
+
+```bash
+git checkout -- .
+```
+
+> Devuelve los archivos de su copia de trabajo al estado del último commit (sin tocar los archivos sin seguimiento). Básicamente descarta los cambios no confirmados
+
 # Subir repositorio a github con git
 
 Una vez inicializado el repositorio solo de forma local.
